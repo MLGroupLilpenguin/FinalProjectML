@@ -1,0 +1,1278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1180</width>
+    <height>748</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>30</y>
+      <width>1161</width>
+      <height>641</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="Profile">
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>0</y>
+        <width>231</width>
+        <height>61</height>
+       </rect>
+      </property>
+      <property name="baseSize">
+       <size>
+        <width>13</width>
+        <height>3</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 75 24pt &quot;MS Shell Dlg 2&quot;;</string>
+      </property>
+      <property name="lineWidth">
+       <number>2</number>
+      </property>
+      <property name="midLineWidth">
+       <number>34</number>
+      </property>
+      <property name="text">
+       <string>Profile</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>390</y>
+        <width>511</width>
+        <height>171</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>UserAccount</string>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_28">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>50</y>
+         <width>281</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_23">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Password</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_24">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>111</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confirm Password</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_29">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>80</y>
+         <width>281</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>120</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Confirm</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>120</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>720</x>
+        <y>370</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>CHANGE PASSWORD</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>690</x>
+        <y>50</y>
+        <width>171</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="mouseTracking">
+       <bool>false</bool>
+      </property>
+      <property name="tabletTracking">
+       <bool>false</bool>
+      </property>
+      <property name="text">
+       <string>CUSTOMER INFORMATION</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>530</x>
+        <y>60</y>
+        <width>511</width>
+        <height>281</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Customer ID</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>20</y>
+         <width>281</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>50</y>
+         <width>101</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Customer Name</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>50</y>
+         <width>281</width>
+         <height>22</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Segment</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_4">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Country</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_5">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>State</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>City</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>200</y>
+         <width>81</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Region</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="comboBox">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>200</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>South</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>West</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Central</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>East</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>80</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Consumer</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Home Office</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Corporate
+</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_3">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>140</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>United States
+</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_4">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>170</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Melbourne</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Orland Park</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Whittier</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chapel Hill</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layton</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lindenhurst</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rochester Hills</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lake Elsinore</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Linden</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Murrieta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Jefferson City</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Saint Peters</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Antioch</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Cedar Rapids</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pico Rivera</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Keller</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Port Orange</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Missoula</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ontario</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ormond Beach</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Littleton</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Holyoke</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>La Quinta</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vacaville</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Waukesha</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Billings</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Missouri City</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>San Mateo</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Yucaipa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Conroe</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tinley Park</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rock Hill</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Manhattan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Champaign</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Baytown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Deer Park</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Iowa City</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Citrus Heights</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Portage</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Margate</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pensacola</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Grand Island</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rogers</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_5">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>110</y>
+         <width>121</width>
+         <height>22</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Alabama</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arizona</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Arkansas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>California</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Colorado</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Connecticut</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Delaware</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>District of Columbia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Georgia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Florida</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Idaho</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Illinois</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Indiana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Iowa</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kansas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kentucky</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Louisiana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maine</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Maryland</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Massachusetts</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Michigan</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Minnesota</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mississippi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Missouri</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Montana</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nebraska</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nevada</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Hampshire</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Jersey</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New Mexico</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>New York</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>North Carolina</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>North Dakota</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ohio</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oklahoma</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Oregon</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Pennsylvania</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Rhode Island</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>South Carolina</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>South Dakota</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tennessee</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Texas</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Utah</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Vermont</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Virginia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Washington</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>West Virginia</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Wisconsin</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Wyoming</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="geometry">
+        <rect>
+         <x>280</x>
+         <y>230</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>230</y>
+         <width>93</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Save</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Order">
+     <widget class="QGroupBox" name="Menu">
+      <property name="geometry">
+       <rect>
+        <x>1</x>
+        <y>11</y>
+        <width>511</width>
+        <height>599</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QWidget" name="horizontalLayoutWidget_3">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>491</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="Search">
+        <item>
+         <widget class="QLabel" name="Search_TItile">
+          <property name="text">
+           <string>Search Product: </string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="Search_Line">
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="Search_But">
+          <property name="text">
+           <string>Search!</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QTableWidget" name="Search_Table">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>491</width>
+         <height>181</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>Product Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Price</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Quanity</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Discount</string>
+        </property>
+       </column>
+      </widget>
+      <widget class="QGroupBox" name="Relative">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>250</y>
+         <width>491</width>
+         <height>331</height>
+        </rect>
+       </property>
+       <property name="title">
+        <string/>
+       </property>
+       <widget class="QLabel" name="Relative_title">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>291</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>RELATIVE PRODUCT.....</string>
+        </property>
+       </widget>
+       <widget class="QTableWidget" name="Relative_Table">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>60</y>
+          <width>481</width>
+          <height>251</height>
+         </rect>
+        </property>
+        <column>
+         <property name="text">
+          <string>Product Name</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Price</string>
+         </property>
+        </column>
+        <column>
+         <property name="text">
+          <string>Discount</string>
+         </property>
+        </column>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="CreateOrder">
+      <property name="geometry">
+       <rect>
+        <x>519</x>
+        <y>11</y>
+        <width>631</width>
+        <height>599</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QFrame" name="frame">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>621</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QWidget" name="horizontalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>601</width>
+          <height>80</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="QPushButton" name="pushButton_6">
+           <property name="text">
+            <string>+</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_5">
+           <property name="text">
+            <string>-</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_8">
+           <property name="text">
+            <string>Order ID:</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_3"/>
+         </item>
+         <item>
+          <widget class="QLabel" name="label_9">
+           <property name="text">
+            <string>Total: </string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QLineEdit" name="lineEdit_4"/>
+         </item>
+         <item>
+          <widget class="QPushButton" name="pushButton_8">
+           <property name="text">
+            <string>Save</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QTableWidget" name="Search_Table_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>110</y>
+         <width>611</width>
+         <height>461</height>
+        </rect>
+       </property>
+       <column>
+        <property name="text">
+         <string>Product ID</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Product Name</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Quanity</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Discount</string>
+        </property>
+       </column>
+       <column>
+        <property name="text">
+         <string>Price (After Discount)</string>
+        </property>
+       </column>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Orderhistory">
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>20</y>
+        <width>1121</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <item>
+        <layout class="QGridLayout" name="gridLayout">
+         <item row="0" column="3">
+          <widget class="QLabel" name="ProductName">
+           <property name="text">
+            <string>Product Name</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="0">
+          <widget class="QLabel" name="Title">
+           <property name="text">
+            <string>Order Hstory</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="4">
+          <widget class="QLineEdit" name="PN_line"/>
+         </item>
+         <item row="0" column="2">
+          <widget class="QLineEdit" name="OrderID_line"/>
+         </item>
+         <item row="0" column="5">
+          <widget class="QPushButton" name="Search_buton">
+           <property name="text">
+            <string>Search</string>
+           </property>
+          </widget>
+         </item>
+         <item row="0" column="1">
+          <widget class="QLabel" name="OrderID">
+           <property name="text">
+            <string>Order ID:</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTableWidget" name="tableWidget">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>110</y>
+        <width>1121</width>
+        <height>531</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>Order ID</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Status</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Order Date</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Ship Date</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Ship Mode</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Product Name</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Quantity</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>Total</string>
+       </property>
+      </column>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>295</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QPushButton" name="ProfileBut">
+       <property name="text">
+        <string>Profile</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="OrderBut">
+       <property name="text">
+        <string>Order</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="OrderHistoryBut">
+       <property name="text">
+        <string>OrderHistory</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1180</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
